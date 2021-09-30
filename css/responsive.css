@@ -1,0 +1,138 @@
+
+
+@media (max-width:992px) {
+    .slider-content-all input {
+        margin-bottom: 15px;
+    }
+    .about-section h2 {
+        font-size: 33px;
+        margin-top: 37px;
+    }
+    .about-section p {
+        margin-bottom: 32px;
+    }
+    .t-all-content {
+        max-width: 800px;
+    }
+    .mem-content- {
+        margin-top: 0;
+    }
+    .m-teams {
+        margin-bottom: 53px;
+    }
+    .main-width {
+        max-width: 910px;
+        margin: 0 auto;
+    }
+
+    
+
+}
+  
+
+
+
+
+
+@media (max-width:768px) {
+    .navbar-light .navbar-brand {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .navbar {
+        display: flex;
+        flex-wrap: wrap;
+        flex-wrap: wrap;
+        flex-direction: row;
+        position: relative;
+    }
+    .navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .navbar-nav.mx-auto {
+        margin-right: auto !important;
+    }
+  
+
+
+
+    .slider-content-all input {
+        margin-bottom: 15px;
+    }
+    .slider-content-all h4 {
+        font-size: 19px;
+    }
+    .slider-content-all h2 {
+        font-size: 40px;
+    }
+    .team-mem {
+        margin-right:0px;
+    }
+    .padding-l {
+        padding-right: 0;
+    }
+    .t-all-content {
+      max-width: 100%;
+       
+    }
+   .mem-content- {
+        margin-top: -98px;
+    }
+    .m-teams {
+        margin-bottom: 69px;
+    }
+    .t-all-content {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    .contact-w {
+        width: 100%;
+    }
+    .t-all-content {
+        max-width: 100%;
+    }
+}
+
+
+@media (max-width:576px) {
+    .slider-content-all h2 {
+        font-size: 35px;
+    }
+    .slider-section {
+        padding-top: 5rem;
+  
+    }
+    .t-headign h2 {
+        font-size: 34px;
+        margin-bottom: 15px;
+    }
+    .pricing-heading h2 {
+        font-size: 40px;
+    }
+    .pricing-heading p {
+        font-size: 15px;
+    }
+    .t-all-content p {
+        font-size: 19px;
+    }
+    .t-all-content h2 {
+        font-size: 29px;
+        margin-bottom: 68px;
+    }
+    .quote-style::before {
+        top: 87px;
+    }
+    .m-content span {
+        display: block;
+    }
+    .btn-size a {
+        margin-bottom: 15px;
+    }
+    .t-all-content {
+        max-width: 100%;
+    }
+    
+}

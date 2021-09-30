@@ -1,0 +1,413 @@
+  /* ############# 
+    default  
+ #############  */
+ @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-size: 'Work Sans',sans-serifs;
+}
+img{
+    max-width: 100%;
+}
+
+/* ############
+    header css
+############ */
+
+.header-top img {
+	width: 45px;
+	float: left;
+	margin-right: 10px;
+}
+.header-top h2 {
+	font-size: 25px;
+	margin-top: 7px;
+    transition: .4s;
+}
+.header-top h2:hover{
+    color: #cccccc;
+}
+.default-btn- {
+	padding: 7px 21px;
+	border-radius: 8px;
+    border: 1px solid #6278df;
+    font-size: 16px;
+    font-weight: bold;
+    color: #6278df;;
+}
+.default-btn-:hover{
+    background: #6278df;
+    color: #fff;
+}
+.btn.btn-info {
+	display: block;
+	width: 100%;
+	padding: 7px 12px;
+}
+ /* #########################
+        slider section
+    ###################  */
+    .slider-section{
+        background: url(https://i.postimg.cc/1z4yNHf9/mbr-10.jpg) no-repeat center center;
+        background-size: cover;
+       padding-top: 7rem;
+       padding-bottom: 7rem;
+        text-align: center;
+        color: #fff;
+        position: relative;
+        z-index: 1;
+    }
+
+   .slider-section::after{
+       content: "";
+       position: absolute;
+       top: 0;
+       left: 0;
+       background: rgba(0,0,0,.5);
+       height: 100%;
+       width: 100%;
+       z-index: -1;
+   }
+
+   .bg-color{
+       background: #f7f9ff;
+   }
+
+   /* ###############
+   counter number section
+   ######################## */
+   .counter-num p {
+	color: #7777;
+	font-size: 18px;
+}
+.counter-num h2 {
+	font-weight: 700;
+	font-size: 40px;
+}
+/* ###############
+  about section
+  ################ */
+  .about-section h2 {
+	font-size: 40px;
+	font-weight: 600;
+	margin-bottom: 22px;
+	margin-top: 115px;
+}
+  .about-section p{}
+
+  /* ###################
+        team section
+     ###################### */
+     .t-headign{}
+     .t-headign h2 {
+        font-size: 42px;
+        font-weight: 600;
+        margin-bottom: 24px;
+    }
+     .t-headign p {
+        font-size: 21px;
+        font-weight: 300;
+        margin-bottom: 79px;
+    }
+    .team-mem {
+        border-radius: 3px;
+        transition: .4s;
+        margin-bottom: 20px;
+        margin-right: 10px;
+    }
+    .team-mem:hover{
+        box-shadow: 2px 0 12px -6px rgb(0, 0, 0,.10);
+
+    }
+    .padding-l{
+        padding-left: 0;
+    }
+    .t-con {
+        padding: 18px;
+    }
+    .team-mem img {
+        height: 100%;
+        object-fit: cover;
+        object-fit: center;
+        object-position: center;
+        border-radius: 3px 0px 0px 3px;
+    }
+    .team-mem h4 {
+        font-size: 20px;
+        font-weight: 4500;
+        font-weight: 600;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+    .team-mem p {
+        color: #777;
+        line-height: 23px;
+    }
+    /* #####################
+        aplication section
+        #################### */
+        .application-h h2 {
+            font-size: 40px;
+            font-weight: 500;
+            margin-bottom: 50px;
+        }
+        .app-member{
+            position: relative;
+            display: block;
+        }
+        .app-member::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            background-color: #394ca29e;
+            height: 100%;
+            width: 100%;
+            opacity: 0;
+            visibility: hidden;
+            transition: .4s;
+            cursor: pointer;
+        }
+        .app-member:hover::after{
+            opacity: 1;
+            visibility: visible;
+        }
+
+        /* ################
+         pricing table section 
+         #################*/
+         .pricing-heading h2 {
+            font-size: 48px;
+            font-weight: 500;
+            margin-bottom: 13px;
+        }
+        .pricing-heading p {
+            margin-bottom: 50px;
+        }
+        .pricin-content p {
+            font-size: 23px;
+            margin: 26px 0px;
+        }
+        .pricing-conten h2 {
+            font-weight: 600;
+            margin-bottom: 17px;
+        }
+        .pricing-conten {
+            width: 427px;
+        }
+        .main-width{
+            width: 910px;
+            margin: 0 auto;
+        }
+         .pricing-list {
+            list-style: none;
+        }
+        .pricing-list li {
+            font-size: 15px;
+            color: #777;
+            margin-top: 36px;
+        }
+        .pricing-list li i {
+            width: 30px;
+            font-size: 24px;
+        }
+        .p-button a{
+            color: #6278df;
+        }
+        .pricing-conten:hover a{
+            background-color: #6278df;
+            color: #fff;
+        }
+        .pricing-conten:hover a{
+            background: black;
+        }
+
+        /* ################
+            testimonial section
+            ################ */
+            .t-all-content{
+                width: 800px;
+                margin: 0 auto;
+                text-align: center;
+                position: relative;
+            }
+            .t-all-content{}
+            .t-all-content h3 {
+                font-size: 24px;
+                margin-bottom: 20px;
+            }
+            .t-all-content h2 {
+                font-size: 41px;
+                font-weight: 600;
+                margin-bottom: 88px;
+            }
+            .t-all-content p {
+                font-size: 22px;
+                margin-bottom: 38px;
+            }
+            .quote-style::before {
+                content: "\f10d";
+                font-family: FontAwesome;
+                display: inline-block;
+                font-size: 53px;
+                position: absolute;
+                top: 104px;
+                /* left: ; */
+                opacity: .2;
+            }
+
+            .t-conten-user {
+                width: 188px;
+                margin: 0 auto;
+            }
+            .t-conten-user img {
+                width: 57px;
+                border-radius: 50%;
+                float: left;
+            }
+            .t-user-bio {
+                position: relative;
+                top: 6px;
+            }
+            .t-user-bio h4 {
+                font-size: 20px;
+                font-weight: 600;
+                margin-bottom: 0;
+            }.t-user-bio span {
+                margin: 0;
+            }
+
+            /* #############
+                member section
+                ############# */
+                .mem-content h2 {
+                    font-size: 41px;
+                    font-weight: 500;
+                }
+                .mem-content p {
+                    margin-top: 42px;
+                    margin-bottom: 50px;
+                }
+                .mem-content- p {
+                    margin-top: 88px;
+                    margin-bottom: 50px;
+                }
+
+                /* ##############
+                    member section
+                    ################# */
+                    .m-teams{}
+                    .m-teams img {
+                        width: 100px;
+                        margin-top: -52px;
+                        border-radius: 50%;
+                        margin-left: 14px;
+                    }
+
+                    .m-content{}
+                    .m-content h4 {
+                        font-size: 20px;
+                        font-weight: 600;
+                    }
+                    .m-content p {
+                        font-size: 19px;
+                    }
+                    .m-content span {
+                        font-size: 16px;
+                        display: inline-block;
+                        margin-bottom: 18px;
+                    }
+                    /* ##############
+                        contact section
+                        ################# */
+                        .contact-hea h2 {
+                            font-size: 40px;
+                            font-weight: 500;
+                            margin-bottom: 50px;
+                        }
+                        .contact-w {
+                            width: 600px;
+                            margin: 0 auto;
+                            border-radius: 5px;
+                        }
+                        textarea{
+                            height: 150px;
+                            display: inline-block;
+                        }
+                        .cotact-btn a:hover{
+                            background: #fff;
+                            color: #6278df;
+                            border: 1px solid #6278df;
+                            box-shadow: 3px 3px 27px -3px #6278df;
+                        }
+                        .cotact-btn a {
+                            background: #6278df;
+                            color: #fff;
+                        }
+
+                        /* ###############
+                            android section
+                            ################ */
+                            .android-w{
+                                width: 550px;
+                                margin: 0 auto;
+                            }
+                            .android-w h5 {
+                                margin-bottom: 25px;
+                                margin-top: 68px;
+                                text-align: center;
+                            }
+                            .android-w h2 {
+                                font-size: 39px;
+                                font-weight: 500;
+                                text-align: center;
+                            }
+                            .android-w img {
+                                display: inline-block;
+                                margin-top: 46px;
+                            }
+                            .btn-size{
+                                width: 380px;
+                                margin: 0 auto;
+                            }
+                            .btn-size a{
+                                background: #fff;
+                                color: #5ba533;
+                                font-weight: 600;
+                                padding: 10px 0px;
+                            }
+                            .btn-size a:hover{
+                                background: #5ba433 ;
+                                color: #fff;
+                                box-shadow: 3px 3px 27px -3px #6278df;
+
+                            }
+                            .btn-size a span{
+                                display: inline-block;
+                                margin-right: 7px;
+                                font-size: 21px;
+                            }
+                            .another {
+                                background: #5ba433 !important;
+                                color: #ffff !important;
+                                
+                            }
+                            .another:hover{
+                                background: black !important;
+
+                            }
+                            .another span {
+                                display: inline-block;
+                                margin-right: 7px;
+                                font-size: 21px;
+                            }
+                            /* #############
+                            footer seciton
+                            ############## */
+                            .footer-section{
+                                background: #f7f9ff;
+                            }
+                            .footer-section p{
+                                margin: 0;
+                                padding: 0;
+                                font-weight: 500;
+                            }
